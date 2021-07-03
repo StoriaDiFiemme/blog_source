@@ -1,0 +1,789 @@
+[input]
+base_directory = "/home/leo/devel/storiadifiemme/deploy"
+url_prefix = "https://storiadifiemme.it"
+html_selector = "section#content"
+[[input.files]]
+path = "documento-del-mese-2021-07.html"
+url = "documento-del-mese-2021-07.html"
+title = "La chiesetta dell’Assunta a Paneveggio"
+
+[[input.files]]
+path = "documento-del-mese-2021-06.html"
+url = "documento-del-mese-2021-06.html"
+title = "Testamento di Margherita Varesco di Panchià nel 1806"
+
+[[input.files]]
+path = "documento-del-mese-2021-05.html"
+url = "documento-del-mese-2021-05.html"
+title = "Pergamena da Avignone nel 1360 con l’elenco delle chiese e cappelle di Fiemme"
+
+[[input.files]]
+path = "documento-del-mese-2021-04.html"
+url = "documento-del-mese-2021-04.html"
+title = "Accordo tra la Comunità e la regola di Moena nel 1597"
+
+[[input.files]]
+path = "documento-del-mese-2021-03.html"
+url = "documento-del-mese-2021-03.html"
+title = "Problemi di confine nella caccia al cervo nel 1642"
+
+[[input.files]]
+path = "documento-del-mese-2021-02.html"
+url = "documento-del-mese-2021-02.html"
+title = "Due nuove pubblicazioni"
+
+[[input.files]]
+path = "documento-del-mese-2021-01.html"
+url = "documento-del-mese-2021-01.html"
+title = "Indice cronologico dei documenti editi 2008-2020"
+
+[[input.files]]
+path = "documento-del-mese-2020-12.html"
+url = "documento-del-mese-2020-12.html"
+title = "I quadri della chiesa di San Vigilio a Cavalese"
+
+[[input.files]]
+path = "documento-del-mese-2020-11.html"
+url = "documento-del-mese-2020-11.html"
+title = "Gli scari di Fiemme (revisione)"
+
+[[input.files]]
+path = "documento-del-mese-2020-10.html"
+url = "documento-del-mese-2020-10.html"
+title = "Il bambino ed il tesoro rubato (1574)"
+
+[[input.files]]
+path = "documento-del-mese-2020-09.html"
+url = "documento-del-mese-2020-09.html"
+title = "La formazione dei cognomi in Fiemme (3)"
+
+[[input.files]]
+path = "documento-del-mese-2020-08.html"
+url = "documento-del-mese-2020-08.html"
+title = "La formazione dei cognomi in Fiemme (2)"
+
+[[input.files]]
+path = "documento-del-mese-2020-07.html"
+url = "documento-del-mese-2020-07.html"
+title = "La formazione dei cognomi in Fiemme (1)"
+
+[[input.files]]
+path = "documento-del-mese-2020-06.html"
+url = "documento-del-mese-2020-06.html"
+title = "Da Molina di Fiemme a Loreto nel 1653"
+
+[[input.files]]
+path = "documento-del-mese-2020-05.html"
+url = "documento-del-mese-2020-05.html"
+title = "In memoria di Raffaele Zancanella"
+
+[[input.files]]
+path = "documento-del-mese-2020-04.html"
+url = "documento-del-mese-2020-04.html"
+title = "Fondazione di Anterivo nel 1321"
+
+[[input.files]]
+path = "documento-del-mese-2020-03.html"
+url = "documento-del-mese-2020-03.html"
+title = "Locazione ai Calderoni di Predazzo nel 1620"
+
+[[input.files]]
+path = "documento-del-mese-2020-02.html"
+url = "documento-del-mese-2020-02.html"
+title = "Locazione del Maso Brigadoi a Predazzo nel 1512"
+
+[[input.files]]
+path = "documento-del-mese-2020-01.html"
+url = "documento-del-mese-2020-01.html"
+title = "Il “Cristo della domenica” sulla facciata della cappella di san Rocco a Tesero"
+
+[[input.files]]
+path = "documento-del-mese-2019-12.html"
+url = "documento-del-mese-2019-12.html"
+title = "Rinnovo dell’appalto per il servizio postale nel 1740"
+
+[[input.files]]
+path = "documento-del-mese-2019-11.html"
+url = "documento-del-mese-2019-11.html"
+title = "Divisione del Zocaré nel 1657"
+
+[[input.files]]
+path = "documento-del-mese-2019-10.html"
+url = "documento-del-mese-2019-10.html"
+title = "Cambio del rotolo nel 1654"
+
+[[input.files]]
+path = "documento-del-mese-2019-09.html"
+url = "documento-del-mese-2019-09.html"
+title = "L’edicola sacra di San Giuseppe. Relazione."
+
+[[input.files]]
+path = "documento-del-mese-2019-08.html"
+url = "documento-del-mese-2019-08.html"
+title = "Testamento di don Antonio Longo nel 1820 (seconda parte)"
+
+[[input.files]]
+path = "documento-del-mese-2019-07.html"
+url = "documento-del-mese-2019-07.html"
+title = "Testamento di don Antonio Longo nel 1820 (prima parte)"
+
+[[input.files]]
+path = "documento-del-mese-2019-06.html"
+url = "documento-del-mese-2019-06.html"
+title = "Due permessi edilizi a Cavalese nel 1236"
+
+[[input.files]]
+path = "documento-del-mese-2019-05.html"
+url = "documento-del-mese-2019-05.html"
+title = "Lite nel 1343 fra la città di Trento e la Comunità di Fiemme per le riparazioni al ponte sul fiume Adige"
+
+[[input.files]]
+path = "documento-del-mese-2019-04.html"
+url = "documento-del-mese-2019-04.html"
+title = "Il patto fra Primiero e Fiemme nel 1324"
+
+[[input.files]]
+path = "documento-del-mese-2019-03.html"
+url = "documento-del-mese-2019-03.html"
+title = "Trodena e il monte “Ortesé” nel 1325"
+
+[[input.files]]
+path = "documento-del-mese-2019-02.html"
+url = "documento-del-mese-2019-02.html"
+title = "Le romanìe in Fiemme nel 1335"
+
+[[input.files]]
+path = "documento-del-mese-2019-01.html"
+url = "documento-del-mese-2019-01.html"
+title = "Il principe vescovo Enrico di Metz impone la colta alla Comunità nel 1331"
+
+[[input.files]]
+path = "documento-del-mese-2018-12.html"
+url = "documento-del-mese-2018-12.html"
+title = "Elenco delle imposizioni fiscali a Moena nel 1325"
+
+[[input.files]]
+path = "documento-del-mese-2018-11.html"
+url = "documento-del-mese-2018-11.html"
+title = "Copia del primo patto eseguita nel 1318"
+
+[[input.files]]
+path = "documento-del-mese-2018-10.html"
+url = "documento-del-mese-2018-10.html"
+title = "Istituzione del vicariato stabile in Fiemme nel 1316"
+
+[[input.files]]
+path = "documento-del-mese-2018-09.html"
+url = "documento-del-mese-2018-09.html"
+title = "Il privilegio enriciano del 1314"
+
+[[input.files]]
+path = "documento-del-mese-2018-08.html"
+url = "documento-del-mese-2018-08.html"
+title = "Revisione dei quartieri della Comunità nel 1315-1318, seconda parte"
+
+[[input.files]]
+path = "documento-del-mese-2018-07.html"
+url = "documento-del-mese-2018-07.html"
+title = "Revisione dei quartieri della Comunità 1315-1318, prima parte"
+
+[[input.files]]
+path = "documento-del-mese-2018-06.html"
+url = "documento-del-mese-2018-06.html"
+title = "Fondazione della Curazia di Moena nel 1334"
+
+[[input.files]]
+path = "documento-del-mese-2018-05.html"
+url = "documento-del-mese-2018-05.html"
+title = "Fondazione della Curazia di Trodena nel 1315"
+
+[[input.files]]
+path = "documento-del-mese-2018-04.html"
+url = "documento-del-mese-2018-04.html"
+title = "La Comunità di Fiemme e i Tirolo 9 (1358)"
+
+[[input.files]]
+path = "documento-del-mese-2018-03.html"
+url = "documento-del-mese-2018-03.html"
+title = "La Comunità di Fiemme e i Tirolo 8 (1353)"
+
+[[input.files]]
+path = "documento-del-mese-2018-02.html"
+url = "documento-del-mese-2018-02.html"
+title = "La Comunità di Fiemme e i Tirolo 7 (1347)"
+
+[[input.files]]
+path = "documento-del-mese-2018-01.html"
+url = "documento-del-mese-2018-01.html"
+title = "La Comunità di Fiemme e i Tirolo 6 (1329)"
+
+[[input.files]]
+path = "documento-del-mese-2017-12.html"
+url = "documento-del-mese-2017-12.html"
+title = "La Comunità di Fiemme e i Tirolo 5 (1322)"
+
+[[input.files]]
+path = "documento-del-mese-2017-11.html"
+url = "documento-del-mese-2017-11.html"
+title = "La Comunità di Fiemme e i Tirolo 4 (1321)"
+
+[[input.files]]
+path = "documento-del-mese-2017-10.html"
+url = "documento-del-mese-2017-10.html"
+title = "La Comunità di Fiemme e i Tirolo 3 (1314)"
+
+[[input.files]]
+path = "documento-del-mese-2017-09.html"
+url = "documento-del-mese-2017-09.html"
+title = "La Comunità di Fiemme e i Tirolo 2 (1313)"
+
+[[input.files]]
+path = "documento-del-mese-2017-08.html"
+url = "documento-del-mese-2017-08.html"
+title = "La Comunità di Fiemme e i Tirolo 1 (1310-1312)"
+
+[[input.files]]
+path = "documento-del-mese-2017-07.html"
+url = "documento-del-mese-2017-07.html"
+title = "Il privilegio del vescovo di Trento Nicolò da Brno nel 1339"
+
+[[input.files]]
+path = "documento-del-mese-2017-06.html"
+url = "documento-del-mese-2017-06.html"
+title = "Il privilegio del vescovo di Trento Enrico di Metz alla Comunità di Fiemme nel 1317"
+
+[[input.files]]
+path = "documento-del-mese-2017-05.html"
+url = "documento-del-mese-2017-05.html"
+title = "Il privilegio del vescovo di Trento Bartolomeo Querini alla Comunità di Fiemme nel 1307"
+
+[[input.files]]
+path = "documento-del-mese-2017-04.html"
+url = "documento-del-mese-2017-04.html"
+title = "Importanti documenti del Trecento per la storia della Comunità"
+
+[[input.files]]
+path = "documento-del-mese-2017-03.html"
+url = "documento-del-mese-2017-03.html"
+title = "Inventario e dote a Tesero 1800-1814"
+
+[[input.files]]
+path = "documento-del-mese-2017-02.html"
+url = "documento-del-mese-2017-02.html"
+title = "Inventario a Daiano nel 1620"
+
+[[input.files]]
+path = "documento-del-mese-2016-12.html"
+url = "documento-del-mese-2016-12.html"
+title = "Archivio della Comunità: correzioni all’inventario"
+
+[[input.files]]
+path = "documento-del-mese-2016-11.html"
+url = "documento-del-mese-2016-11.html"
+title = "Documenti mancanti dall’Archivio della Comunità 3"
+
+[[input.files]]
+path = "documento-del-mese-2016-08.html"
+url = "documento-del-mese-2016-08.html"
+title = "I vicari di Fiemme 2"
+
+[[input.files]]
+path = "documento-del-mese-2016-07.html"
+url = "documento-del-mese-2016-07.html"
+title = "I vicari di Fiemme 1"
+
+[[input.files]]
+path = "documento-del-mese-2016-06.html"
+url = "documento-del-mese-2016-06.html"
+title = "Doc 2016/06 Nuovo libro di Italo Giordani"
+
+[[input.files]]
+path = "documento-del-mese-2016-05.html"
+url = "documento-del-mese-2016-05.html"
+title = "Genealogia Cazzano, tabella"
+
+[[input.files]]
+path = "documento-del-mese-2016-04.html"
+url = "documento-del-mese-2016-04.html"
+title = "Genealogia Cazzano, seconda parte"
+
+[[input.files]]
+path = "documento-del-mese-2016-03.html"
+url = "documento-del-mese-2016-03.html"
+title = "Doc 2016/3. Genealogia Cazzano, prima parte"
+
+[[input.files]]
+path = "documento-del-mese-2016-02.html"
+url = "documento-del-mese-2016-02.html"
+title = "Genealogia Unterperger"
+
+[[input.files]]
+path = "documento-del-mese-2016-01.html"
+url = "documento-del-mese-2016-01.html"
+title = "Origini della famiglia Riccabona"
+
+[[input.files]]
+path = "documento-del-mese-2015-11.html"
+url = "documento-del-mese-2015-11.html"
+title = "Genealogia Vincenzi (3)"
+
+[[input.files]]
+path = "documento-del-mese-2015-10.html"
+url = "documento-del-mese-2015-10.html"
+title = "Spostamento sito"
+
+[[input.files]]
+path = "documento-del-mese-2015-09.html"
+url = "documento-del-mese-2015-09.html"
+title = "Genealogia del prof. Nicolò Rasmo"
+
+[[input.files]]
+path = "documento-del-mese-2015-08.html"
+url = "documento-del-mese-2015-08.html"
+title = "Le copie delle Consuetudini di Fiemme"
+
+[[input.files]]
+path = "documento-del-mese-2015-07.html"
+url = "documento-del-mese-2015-07.html"
+title = "Don Giovanni Pietro Muratori (8)"
+
+[[input.files]]
+path = "documento-del-mese-2015-06.html"
+url = "documento-del-mese-2015-06.html"
+title = "Don Giovanni Pietro Muratori (7)"
+
+[[input.files]]
+path = "documento-del-mese-2015-05.html"
+url = "documento-del-mese-2015-05.html"
+title = "Don Giovanni Pietro Muratori (6)"
+
+[[input.files]]
+path = "documento-del-mese-2015-04.html"
+url = "documento-del-mese-2015-04.html"
+title = "Don Giovanni Pietro Muratori (5)"
+
+[[input.files]]
+path = "documento-del-mese-2015-03.html"
+url = "documento-del-mese-2015-03.html"
+title = "Don Giovanni Pietro Muratori (4)"
+
+[[input.files]]
+path = "documento-del-mese-2015-02.html"
+url = "documento-del-mese-2015-02.html"
+title = "Don Giovanni Pietro Muratori (3)"
+
+[[input.files]]
+path = "documento-del-mese-2015-01.html"
+url = "documento-del-mese-2015-01.html"
+title = "Don Giovanni Pietro Muratori (2)"
+
+[[input.files]]
+path = "documento-del-mese-2014-12.html"
+url = "documento-del-mese-2014-12.html"
+title = "Don Giovanni Pietro Muratori (1)"
+
+[[input.files]]
+path = "documento-del-mese-2014-11.html"
+url = "documento-del-mese-2014-11.html"
+title = "Il libro sulla pieve di Fiemme"
+
+[[input.files]]
+path = "documento-del-mese-2014-10.html"
+url = "documento-del-mese-2014-10.html"
+title = "Il notaio Giacomo Bertelli (6)"
+
+[[input.files]]
+path = "documento-del-mese-2014-09.html"
+url = "documento-del-mese-2014-09.html"
+title = "Il notaio Giacomo Bertelli (5)"
+
+[[input.files]]
+path = "documento-del-mese-2014-08.html"
+url = "documento-del-mese-2014-08.html"
+title = "Il notaio Giacomo Bertelli (4)"
+
+[[input.files]]
+path = "documento-del-mese-2014-07.html"
+url = "documento-del-mese-2014-07.html"
+title = "Il notaio Giacomo Bertelli (3)"
+
+[[input.files]]
+path = "documento-del-mese-2014-06.html"
+url = "documento-del-mese-2014-06.html"
+title = "Il notaio Giacomo Bertelli (2)"
+
+[[input.files]]
+path = "documento-del-mese-2014-05.html"
+url = "documento-del-mese-2014-05.html"
+title = "Il notaio Giacomo Bertelli (1)"
+
+[[input.files]]
+path = "documento-del-mese-2014-04.html"
+url = "documento-del-mese-2014-04.html"
+title = "La vicinanza secondo Mendini nel 1903 (2°)"
+
+[[input.files]]
+path = "documento-del-mese-2014-03.html"
+url = "documento-del-mese-2014-03.html"
+title = "La vicinanza secondo Mendini nel 1903 (1°)"
+
+[[input.files]]
+path = "documento-del-mese-2014-02.html"
+url = "documento-del-mese-2014-02.html"
+title = "Metodi di ricerca (terza parte)"
+
+[[input.files]]
+path = "documento-del-mese-2014-01.html"
+url = "documento-del-mese-2014-01.html"
+title = "Metodi di ricerca (seconda parte)"
+
+[[input.files]]
+path = "documento-del-mese-2013-12.html"
+url = "documento-del-mese-2013-12.html"
+title = "Metodi di ricerca (prima parte)"
+
+[[input.files]]
+path = "documento-del-mese-2013-11.html"
+url = "documento-del-mese-2013-11.html"
+title = "Inventario Baldironi del 1723 (6)"
+
+[[input.files]]
+path = "documento-del-mese-2013-10.html"
+url = "documento-del-mese-2013-10.html"
+title = "Inventario Baldironi del 1723 (5)"
+
+[[input.files]]
+path = "documento-del-mese-2013-09.html"
+url = "documento-del-mese-2013-09.html"
+title = "Inventario Baldironi del 1723 (4)"
+
+[[input.files]]
+path = "documento-del-mese-2013-08.html"
+url = "documento-del-mese-2013-08.html"
+title = "Inventario Baldironi del 1723 (3)"
+
+[[input.files]]
+path = "documento-del-mese-2013-07.html"
+url = "documento-del-mese-2013-07.html"
+title = "Inventario Baldironi del 1723 (2)"
+
+[[input.files]]
+path = "documento-del-mese-2013-06.html"
+url = "documento-del-mese-2013-06.html"
+title = "Inventario Baldironi del 1723 (1)"
+
+[[input.files]]
+path = "documento-del-mese-2013-05.html"
+url = "documento-del-mese-2013-05.html"
+title = "Confini sul Lavazé nel 1784"
+
+[[input.files]]
+path = "documento-del-mese-2013-04.html"
+url = "documento-del-mese-2013-04.html"
+title = "Rendiconto Cazzano nel 1618 (2)"
+
+[[input.files]]
+path = "documento-del-mese-2013-03.html"
+url = "documento-del-mese-2013-03.html"
+title = "Rendiconto Cazzano nel 1618 (1)"
+
+[[input.files]]
+path = "documento-del-mese-2013-02.html"
+url = "documento-del-mese-2013-02.html"
+title = "In ricordo di Toni Betta (1915-2013)"
+
+[[input.files]]
+path = "documento-del-mese-2013-01.html"
+url = "documento-del-mese-2013-01.html"
+title = "Locazione Cazzano nel 1623"
+
+[[input.files]]
+path = "documento-del-mese-2012-12.html"
+url = "documento-del-mese-2012-12.html"
+title = "La storia di Fiemme del prof. Nicolò Vanzetta"
+
+[[input.files]]
+path = "documento-del-mese-2012-11.html"
+url = "documento-del-mese-2012-11.html"
+title = "Contratto legnami Baldironi nel 1767"
+
+[[input.files]]
+path = "documento-del-mese-2012-10.html"
+url = "documento-del-mese-2012-10.html"
+title = "Lamentele del curato di Tesero nel 1612"
+
+[[input.files]]
+path = "documento-del-mese-2012-09.html"
+url = "documento-del-mese-2012-09.html"
+title = "Esempio di apprendistato nel 1776"
+
+[[input.files]]
+path = "documento-del-mese-2012-08.html"
+url = "documento-del-mese-2012-08.html"
+title = "I contrabbandieri di Foza in Fiemme nel 1759"
+
+[[input.files]]
+path = "documento-del-mese-2012-07.html"
+url = "documento-del-mese-2012-07.html"
+title = "Un esempio di “pace” nel 1789"
+
+[[input.files]]
+path = "documento-del-mese-2012-06.html"
+url = "documento-del-mese-2012-06.html"
+title = "Sui termini “vicino” e “vicinanza”"
+
+[[input.files]]
+path = "documento-del-mese-2012-05.html"
+url = "documento-del-mese-2012-05.html"
+title = "Gioco del pallone a Ziano nel 1796"
+
+[[input.files]]
+path = "documento-del-mese-2012-04.html"
+url = "documento-del-mese-2012-04.html"
+title = "Un “Testamento di Gesù” in poesia"
+
+[[input.files]]
+path = "documento-del-mese-2012-03.html"
+url = "documento-del-mese-2012-03.html"
+title = "La donazione Firmian ai Frati Francescani nel 1662"
+
+[[input.files]]
+path = "documento-del-mese-2012-02.html"
+url = "documento-del-mese-2012-02.html"
+title = "Relazione di Maria Piccolin: Moena, 27 novembre 2011"
+
+[[input.files]]
+path = "documento-del-mese-2012-01.html"
+url = "documento-del-mese-2012-01.html"
+title = "Il volontariato nei documenti di Fiemme"
+
+[[input.files]]
+path = "documento-del-mese-2011-12.html"
+url = "documento-del-mese-2011-12.html"
+title = "I valori della Comunità di Fiemme (2)"
+
+[[input.files]]
+path = "documento-del-mese-2011-11.html"
+url = "documento-del-mese-2011-11.html"
+title = "I valori della Comunità di Fiemme (1)"
+
+[[input.files]]
+path = "documento-del-mese-2011-10.html"
+url = "documento-del-mese-2011-10.html"
+title = "I Frati Francescani a Cavalese nel 1662"
+
+[[input.files]]
+path = "documento-del-mese-2011-09.html"
+url = "documento-del-mese-2011-09.html"
+title = "La Comunità di Fiemme e la sua Pieve"
+
+[[input.files]]
+path = "documento-del-mese-2011-08.html"
+url = "documento-del-mese-2011-08.html"
+title = "Gli scari di Fiemme (6)"
+
+[[input.files]]
+path = "documento-del-mese-2011-07.html"
+url = "documento-del-mese-2011-07.html"
+title = "Gli scari di Fiemme (5)"
+
+[[input.files]]
+path = "documento-del-mese-2011-06.html"
+url = "documento-del-mese-2011-06.html"
+title = "Gli scari di Fiemme (4)"
+
+[[input.files]]
+path = "documento-del-mese-2011-05.html"
+url = "documento-del-mese-2011-05.html"
+title = "Gli scari di Fiemme (3)"
+
+[[input.files]]
+path = "documento-del-mese-2011-04.html"
+url = "documento-del-mese-2011-04.html"
+title = "Gli scari di Fiemme (2)"
+
+[[input.files]]
+path = "documento-del-mese-2011-03.html"
+url = "documento-del-mese-2011-03.html"
+title = "Gli scari di Fiemme (1)"
+
+[[input.files]]
+path = "documento-del-mese-2011-02.html"
+url = "documento-del-mese-2011-02.html"
+title = "Maria Piccolin: “Caccia in Fiemme e a Moena”"
+
+[[input.files]]
+path = "documento-del-mese-2011-01.html"
+url = "documento-del-mese-2011-01.html"
+title = "Caccia e pesca in Fiemme 1829-1849"
+
+[[input.files]]
+path = "documento-del-mese-2010-12.html"
+url = "documento-del-mese-2010-12.html"
+title = "Caccia e pesca in Fiemme 1821-1845"
+
+[[input.files]]
+path = "documento-del-mese-2010-11.html"
+url = "documento-del-mese-2010-11.html"
+title = "Scuola a Cavalese nel 1632"
+
+[[input.files]]
+path = "documento-del-mese-2010-10.html"
+url = "documento-del-mese-2010-10.html"
+title = "Contratto col sagrestano di Cavalese nel 1909"
+
+[[input.files]]
+path = "documento-del-mese-2010-09.html"
+url = "documento-del-mese-2010-09.html"
+title = "Relazione su Carano nel 1767"
+
+[[input.files]]
+path = "documento-del-mese-2010-08.html"
+url = "documento-del-mese-2010-08.html"
+title = "Scario “incazzato” nel 1577"
+
+[[input.files]]
+path = "documento-del-mese-2010-07.html"
+url = "documento-del-mese-2010-07.html"
+title = "La pieve di Fiemme sconsacrata nel 1436"
+
+[[input.files]]
+path = "documento-del-mese-2010-06.html"
+url = "documento-del-mese-2010-06.html"
+title = "La Madonna del Rosario, affresco del 1587"
+
+[[input.files]]
+path = "documento-del-mese-2010-04.html"
+url = "documento-del-mese-2010-04.html"
+title = "Gioco di palla a Cavalese 1841-1865"
+
+[[input.files]]
+path = "documento-del-mese-2010-03.html"
+url = "documento-del-mese-2010-03.html"
+title = "La chiesetta della Palanca a Tesero"
+
+[[input.files]]
+path = "documento-del-mese-2010-02.html"
+url = "documento-del-mese-2010-02.html"
+title = "Conferma dei confini della Comunità nel 1312"
+
+[[input.files]]
+path = "documento-del-mese-2010-01.html"
+url = "documento-del-mese-2010-01.html"
+title = "La cappella dei SS. Fabiano e Sebastiano nel 1464"
+
+[[input.files]]
+path = "documento-del-mese-2009-12.html"
+url = "documento-del-mese-2009-12.html"
+title = "Conferenza a Moena il 21 novembre 2002"
+
+[[input.files]]
+path = "documento-del-mese-2009-11.html"
+url = "documento-del-mese-2009-11.html"
+title = "La canonica di Tesero nel 1629"
+
+[[input.files]]
+path = "documento-del-mese-2009-10.html"
+url = "documento-del-mese-2009-10.html"
+title = "Conferenza a Cavalese il 22 novembre 2008"
+
+[[input.files]]
+path = "documento-del-mese-2009-09.html"
+url = "documento-del-mese-2009-09.html"
+title = "Eredità a Trodena nel 1620"
+
+[[input.files]]
+path = "documento-del-mese-2009-08.html"
+url = "documento-del-mese-2009-08.html"
+title = "Due “gride” a Castello, nel 1572 e nel 1767"
+
+[[input.files]]
+path = "documento-del-mese-2009-07.html"
+url = "documento-del-mese-2009-07.html"
+title = "Testamento a Carano nel 1429"
+
+[[input.files]]
+path = "documento-del-mese-2009-06.html"
+url = "documento-del-mese-2009-06.html"
+title = "Il fortilizio di Castello"
+
+[[input.files]]
+path = "documento-del-mese-2009-05.html"
+url = "documento-del-mese-2009-05.html"
+title = "Un esempio di “pace” a Tesero nel 1595"
+
+[[input.files]]
+path = "documento-del-mese-2009-04.html"
+url = "documento-del-mese-2009-04.html"
+title = "Storia, arte, religione a Tesero (conferenza)"
+
+[[input.files]]
+path = "documento-del-mese-2009-03.html"
+url = "documento-del-mese-2009-03.html"
+title = "La Regola di Tesero (conferenza)"
+
+[[input.files]]
+path = "documento-del-mese-2009-02.html"
+url = "documento-del-mese-2009-02.html"
+title = "Osservazioni sul Feudo di Predazzo"
+
+[[input.files]]
+path = "documento-del-mese-2009-01.html"
+url = "documento-del-mese-2009-01.html"
+title = "Esempio di “vicinanza” a Castello nel 1619"
+
+[[input.files]]
+path = "documento-del-mese-2008-12.html"
+url = "documento-del-mese-2008-12.html"
+title = "Parole grosse a Capriana nel 1572"
+
+[[input.files]]
+path = "documento-del-mese-2008-11.html"
+url = "documento-del-mese-2008-11.html"
+title = "Esempio di “vicinanza” a Trodena nel 1620"
+
+[[input.files]]
+path = "documento-del-mese-2008-10.html"
+url = "documento-del-mese-2008-10.html"
+title = "Rotazione di cariche a Trodena nel 1619"
+
+[[input.files]]
+path = "documento-del-mese-2008-09.html"
+url = "documento-del-mese-2008-09.html"
+title = "Antichi pesi e misure di Fiemme"
+
+[[input.files]]
+path = "documento-del-mese-2008-08.html"
+url = "documento-del-mese-2008-08.html"
+title = "Testamento di Antonio Rota nel 1531"
+
+[[input.files]]
+path = "documento-del-mese-2008-07.html"
+url = "documento-del-mese-2008-07.html"
+title = "Inventario del 1573 dopo un omicidio"
+
+[[input.files]]
+path = "documento-del-mese-2008-06.html"
+url = "documento-del-mese-2008-06.html"
+title = "Trasporto legname per i passi Vallazze e Valles 1626-1636"
+
+[[input.files]]
+path = "documento-del-mese-2008-05.html"
+url = "documento-del-mese-2008-05.html"
+title = "Incidenti boschivi, 1574-1575"
+
+[[input.files]]
+path = "documento-del-mese-2008-04.html"
+url = "documento-del-mese-2008-04.html"
+title = "Arbitrato per commercio legnami nel 1593"
+
+[[input.files]]
+path = "documento-del-mese-2008-03.html"
+url = "documento-del-mese-2008-03.html"
+title = "Affitto di una segheria nel 1526"
+
+[[input.files]]
+path = "documento-del-mese-2008-02.html"
+url = "documento-del-mese-2008-02.html"
+title = "Contratto per esbosco legnami nel 1592"
+
