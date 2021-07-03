@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv='content-language' content='it'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    {% block meta_description %}{% endblock %}
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/15214b60ba.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    {% assets filters="cssmin", output="css/main.min.css", "css/main.css", "css/custom.css" %}
+    <link rel="stylesheet" href="/{{ ASSET_URL }}">
+    {% endassets %}
+    
+    {% block custom_css %}{% endblock %}
+    
+    <link href="/{{ FAVICON }}" rel="icon">
+
+    <!-- Google Analytics -->
+    {% if GOOGLE_ANALYTICS_UNIVERSAL %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74364524-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', '{{ GOOGLE_ANALYTICS_UNIVERSAL }}');
+    </script>
+    {% endif %}
+    
+    {% if GOOGLE_TAG_MANAGER %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZ55XG1KGG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', '{{ GOOGLE_TAG_MANAGER }}');
+    </script>
+    {% endif %}
+    
+    {% block structured_data %}{% endblock %}
+
+    <title>{{ SITENAME }} - {% block title %}{% endblock %}</title>
+  </head>
+  <body class="font-roboto">
+    <div class="relative min-h-screen xl:flex">
+
+      <!-- mobile menu bar -->
+      <div class="p-4 text-gray-100 flex justify-between xl:hidden">
+	<!-- mobile menu button -->
+	<button id="mobile-menu-button" class="text-gray-700 focus:text-red-400"><i class="fa fa-bars fa-2x"></i></button>
+      </div>
+
+      <div id="mobile-overlay" class="z-10 fixed inset-0 transition-opacity hidden xl:hidden">
+	<div class="absolute inset-0 bg-black opacity-50"></div>
+      </div>
+      
+      <!-- sidebar -->
+      {% include 'includes/sidebar.html' %}
+
+      <!-- content -->
+      <div class="flex-1 px-10">
+	<div class="xl:max-w-screen-xl mx-auto">
+          {% block content %}
+          {% endblock %}
+	</div>
+      </div>
+      
+    </div>
+    
+    <!-- Scripts -->
+    {% block custom_js %}{% endblock %}
+    {% assets filters="jsmin", output="js/main.min.js", "js/main.js" %}
+    <script src="/{{ ASSET_URL }}"></script>
+    {% endassets %}
+    
+  </body>
+</html>

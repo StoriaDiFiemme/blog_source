@@ -1,0 +1,28 @@
+{
+  "name": "storiadifiemme",
+  "version": "1.0.0",
+  "description": "Source code of the blog",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build -i winnie/static/css/styles.css -o winnie/static/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoriaDiFiemme/blog_source.git"
+  },
+  "author": "Leonardo Giordani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StoriaDiFiemme/blog_source/issues"
+  },
+  "homepage": "https://github.com/StoriaDiFiemme/blog_source#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
+

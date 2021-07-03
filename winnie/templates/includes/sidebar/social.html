@@ -1,0 +1,5 @@
+<ul class="pl-4">
+  {% for name, url, icon in SOCIAL %}
+  <li><a class="highlight-hover" href="{{ url }}"><i class="fab fa-{{ icon }}"></i> {{ name }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,40 @@
+<div id="sidebar" class="z-20 bg-gray-100 w-80 space-y-12 p-4 border-b-2 absolute top-0 left-0 transform -translate-x-full transition duration-200 ease-in-out xl:relative xl:translate-x-0">
+ 
+  {% include 'includes/sidebar/menu.html' %}
+
+  <section>
+    <header>
+      <h2 class="sidebar-header">Articoli recenti</h2>
+    </header>
+    {% include 'includes/sidebar/other_posts.html' %}
+  </section>
+
+  <section>
+    <header>
+      <h2 class="sidebar-header">Categorie</h2>
+    </header>
+    {% include 'includes/sidebar/categories.html' %}
+  </section>
+
+  <section>
+    <header>
+      <h2 class="sidebar-header">Tags</h2>
+    </header>
+    {% include 'includes/sidebar/tags.html' %}
+  </section>
+
+  <section>
+    <header>
+      <h2 class="sidebar-header">Feeds</h2>
+    </header>
+    {% include 'includes/sidebar/feeds.html' %}
+  </section>
+
+  <footer class="border-t-2 border-indigo-400 text-gray-400 text-sm py-20">
+    <p>Tema creato con <a class="highlight-hover" href="https://tailwindcss.com">Tailwind CSS</a></p>
+    <p class="">Immagine di copertina di <a href="https://unsplash.com/@lucabravo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luca Bravo</a> on <a href="https://unsplash.com/s/photos/val-di-fiemme?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </p>
+  </footer>
+</div>
+
+

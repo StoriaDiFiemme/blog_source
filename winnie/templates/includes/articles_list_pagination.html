@@ -1,0 +1,29 @@
+{% if articles_page and articles_paginator.num_pages > 1 %}
+<ul class="list-none">
+  {% if articles_page.has_previous() %}
+  {% set num = articles_page.previous_page_number() %}
+  <li class="inline-block"><a href="/{{ articles_previous_page.url }}">&laquo;</a></li>
+  {% else %}
+  <li class="inline-block"><span>&laquo;</span></li>
+  {% endif %}
+  
+  {% for num in range( 1, articles_page.number ) %}
+  {% set page = articles_paginator.page(num) %}
+  <li class="inline-block"><a href="/{{ page.url }}" class="highlight-hover">{{ num }}</a></li>
+  {% endfor %}
+
+  {% set page = articles_paginator.page(articles_page.number) %}
+  <li class="inline-block">{{ articles_page.number }}</li>
+  
+  {% for num in range( articles_page.number + 1, articles_paginator.num_pages ) %}
+  {% set page = articles_paginator.page(num) %}
+  <li class="inline-block"><a href="/{{ page.url }}" class="highlight-hover">{{ num }}</a></li>
+  {% endfor %}
+
+  {% if articles_page.has_next() %}
+  <li class="inline-block"><a href="/{{ articles_next_page.url }}">&raquo;</a></li>
+  {% else %}
+  <li class="inline-block"><span>&raquo;</span></li>
+  {% endif %}
+</ul>
+{% endif %}

@@ -1,0 +1,6 @@
+<ul class="list-none pl-4">
+  {% for category in categories %}
+  <li><a class="highlight-hover" href="/{{ category.0.url }}">{{ category.0 }}</a></li>
+  {% endfor %}
+</ul>
+
