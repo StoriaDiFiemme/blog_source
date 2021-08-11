@@ -1,8 +1,0 @@
-{% set tags = tag_cloud | sort(attribute='0') %}
-<div class="flex flex-wrap gap-x-3 items-center pl-4">
-  {% for tag in tags %}
-  <div class="highlight-hover tag-{{ tag.1 }}">
-    <a title="Posts about {{ tag.0 }}" href="/{{ tag.0.url }}">{{ tag.0 }}</a>
-  </div>
-  {% endfor %}
-</div>

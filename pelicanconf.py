@@ -3,6 +3,7 @@
 
 AUTHOR = "Italo Giordani"
 SITENAME = "Storia di Fiemme"
+SITESUBTITLE = "Una finestra aperta sulla Valle di Fiemme"
 SITEURL = ""
 DEBUG = True
 
@@ -13,11 +14,16 @@ LOCALE = "it_IT.utf8"
 DEFAULT_LANG = "it"
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+FEED_ALL_ATOM = "atom.xml"
+TAG_FEED_ATOM = "categories/{slug}/atom.xml"
+CATEGORY_FEED_ATOM = "category/{slug}/atom.xml"
+
+ARCHIVES_URL = "archives/"
+ARCHIVES_SAVE_AS = ARCHIVES_URL + "index.html"
 
 # Blogroll
 LINKS = (
@@ -36,6 +42,17 @@ SITEMAP = {
 }
 
 THEME = "winnie"
+
+QUOTES = [
+    {
+        "quote": "Guardi questo: non vale niente. "
+        "Dieci dollari da un venditore per la strada. "
+        "Ma se io adesso lo prendo e lo sotterro nella sabbia, tra mille anni "
+        "diventa preziosissimo.",
+        "source": "I predatori dell'arca perduta, 1981",
+    }
+]
+
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

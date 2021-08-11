@@ -1,0 +1,15 @@
+<ul>
+  {% if FEED_ALL_ATOM %}
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/{{ FEED_ALL_ATOM }}">Tutti gli articoli</a></li>
+  {% endif %}
+
+  {% if tag and TAG_FEED_ATOM %}
+  {% set href = TAG_FEED_ATOM.format(slug=tag.slug) %}
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/{{ href }}">Tutti gli articoli con tag: {{ tag }}</a></li>
+  {% endif %}
+
+  {% if category and CATEGORY_FEED_ATOM %}
+  {% set href = CATEGORY_FEED_ATOM.format(slug=category.slug) %}
+  <li><i class="fas fa-rss" aria-hidden="true"></i> <a href="/{{ href }}">Tutti gli articoli nella categoria: {{ category }}</a></li>
+  {% endif %}
+</ul>

@@ -2,24 +2,82 @@
 
 {% block title %}Home{% if articles_page.number != 1 %} Page {{ articles_page.number }}{% endif %}{% endblock %}
 
-{% block meta_description %}
-<meta name="description" content="A blog featuring in-depth posts about Python, Scala, TDD, devops, security and all things development{% if articles_page.number != 1 %} - Page {{ articles_page.number }}{% endif %}">
-{% endblock %}
-
 {% block content %}
-<section class="">
-  <div class="">
-    <img class="w-full h-full pt-4 relative object-cover object-center lg:max-h-60" src="/images/global/cover_banner.jpg" alt="Cover" />
-    <div class="text-3xl mt-4 font-bold text-center md:text-5xl lg:text-7xl">{{ SITENAME }}</div>
-  </div>
-</section>
+<img class="cover" src="/images/global/cover.jpg" alt="Cover">
+<p class="subtitle">{{ SITESUBTITLE }}</p>
+<div class="quote">
+  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-right" class="svg-inline--fa fa-quote-right fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"></path></svg>
+  <p>{{ QUOTES[0].quote }}</p>
+  <p class="source">{{ QUOTES[0].source }}</p>
+</div>
+<div class="page-content">
 
-<section class="mt-8">
-  <header>
-    <h2 class="text-xl font-bold inline-block pb-4 mb-6 border-b-2 border-indigo-500">Ultimi articoli</h2>
-  </header>
+  <section>
+    <header>
+      <h2>Tutti gli articoli</h2>
+    </header>
+    <div class="paginated-posts">
+      {% include 'includes/paginated_posts.html' %}
+    </div>
+  </section>
 
-  {% include 'includes/paginated_posts.html' %}
+  {% if series.items() %}
+  <section>
+    <header>
+      <h2>Top series</h2>
+    </header>
+    <div class="paginated-posts">
+      <div class="posts">
+	{% for series_name, series_articles in series.items() %}
+	{% set article = series_articles[0] %}
+	{% if article.series_info %}
+	<article class="card">
+	  <a href="{{ article.url }}">
+            <img src="/images/{{ article.image if article.image else 'article_image_placeholder' }}.jpg" alt="{{ article.image if article.image else 'article_image_placeholder' }}" />
+	  </a>
+	  <div class="body">
+            <a href="{{ article.url }}"><h2>{{ series_name }}</h2></a>
+	    <div class="text">
+              <p>{{ article.series_info }}</p>
+	    </div>
+            <div class="actions">
+              <a class="action" href="{{ article.url }}">Start</a>
+            </div>
+	  </div>
+	</article>
+	{% endif %}
+	{% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
 
-</section>
+  <section>
+    <header>
+      <h2>Libri</h2>
+    </header>
+    <div class="paginated-posts">
+      <div class="posts">
+	<article class="card">
+	  <a href="#" class="image">
+	    <img src="https://via.placeholder.com/600x300.png" alt="#">
+	  </a>
+	  <div class="body">
+	    <a href="#"><h2 class="card-title">Titolo</h2></a>
+	    <div class="text">
+	      <p>At risus viverra adipiscing at in tellus integer feugiat! Convallis convallis tellus, id interdum velit laoreet id donec ultrices tincidunt arcu, non sodales neque sodales ut etiam sit amet nisl.</p>
+	    </div>
+	    <div class="actions">
+	      <a class="action" href="https://www.amazon.it">Compra</a>
+	    </div>
+	  </div>
+	</article>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p>Cover picture by: <a href="https://pxhere.com/en/photo/1428515">An Min @ pxhere.com</a></p>
+</footer>
 {% endblock %}
