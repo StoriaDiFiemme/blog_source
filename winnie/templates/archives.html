@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Archives{% endblock %}
+{% block title %}Indice articoli{% endblock %}
 
 {% block meta_description %}
 <meta name="description" content="Archives">
@@ -9,14 +9,14 @@
 {% block content %}
 <div class="page-content">
   <header>
-    <h1>Archives</h1>
+    <h1>Indice articoli</h1>
   </header>
 
   <div class="post-content">
         <div class="post-list">
             {% for article in dates %}
             <p>
-                <span><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></span>
+              <span><time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%B %Y') }}</time></span>
                 <a href="/{{ article.url }}">{{ article.title }}</a>
             </p>
             {% endfor %}

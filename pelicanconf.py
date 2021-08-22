@@ -33,7 +33,7 @@ LINKS = (
     ("You can modify those links in your config file", "#"),
 )
 
-SOCIAL = ()
+SOCIAL = []
 
 DEFAULT_PAGINATION = 10
 

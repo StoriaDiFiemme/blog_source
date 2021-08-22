@@ -21,62 +21,6 @@
     </div>
   </section>
 
-  {% if series.items() %}
-  <section>
-    <header>
-      <h2>Top series</h2>
-    </header>
-    <div class="paginated-posts">
-      <div class="posts">
-	{% for series_name, series_articles in series.items() %}
-	{% set article = series_articles[0] %}
-	{% if article.series_info %}
-	<article class="card">
-	  <a href="{{ article.url }}">
-            <img src="/images/{{ article.image if article.image else 'article_image_placeholder' }}.jpg" alt="{{ article.image if article.image else 'article_image_placeholder' }}" />
-	  </a>
-	  <div class="body">
-            <a href="{{ article.url }}"><h2>{{ series_name }}</h2></a>
-	    <div class="text">
-              <p>{{ article.series_info }}</p>
-	    </div>
-            <div class="actions">
-              <a class="action" href="{{ article.url }}">Start</a>
-            </div>
-	  </div>
-	</article>
-	{% endif %}
-	{% endfor %}
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
-  <section>
-    <header>
-      <h2>Libri</h2>
-    </header>
-    <div class="paginated-posts">
-      <div class="posts">
-	<article class="card">
-	  <a href="#" class="image">
-	    <img src="https://via.placeholder.com/600x300.png" alt="#">
-	  </a>
-	  <div class="body">
-	    <a href="#"><h2 class="card-title">Titolo</h2></a>
-	    <div class="text">
-	      <p>At risus viverra adipiscing at in tellus integer feugiat! Convallis convallis tellus, id interdum velit laoreet id donec ultrices tincidunt arcu, non sodales neque sodales ut etiam sit amet nisl.</p>
-	    </div>
-	    <div class="actions">
-	      <a class="action" href="https://www.amazon.it">Compra</a>
-	    </div>
-	  </div>
-	</article>
-      </div>
-    </div>
-  </section>
-</div>
-
 <footer>
   <p>Cover picture by: <a href="https://pxhere.com/en/photo/1428515">An Min @ pxhere.com</a></p>
 </footer>

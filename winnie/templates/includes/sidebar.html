@@ -19,6 +19,7 @@
   </header>
   {% include 'includes/navigation/tags.html' %}
 </section>
+{% if SOCIAL | length > 0 %}
 <section>
   <header>
     <h2>Contatti</h2>
@@ -29,3 +30,4 @@
     {% endfor %}
   </ul>
 </section>
+{% endif %}
