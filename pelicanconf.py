@@ -43,15 +43,7 @@ SITEMAP = {
 
 THEME = "winnie"
 
-QUOTES = [
-    {
-        "quote": "Guardi questo: non vale niente. "
-        "Dieci dollari da un venditore per la strada. "
-        "Ma se io adesso lo prendo e lo sotterro nella sabbia, tra mille anni "
-        "diventa preziosissimo.",
-        "source": "I predatori dell'arca perduta, 1981",
-    }
-]
+QUOTES = []
 
 STATIC_PATHS = [
     "extra/CNAME",
