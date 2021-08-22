@@ -53,6 +53,14 @@ QUOTES = [
     }
 ]
 
+STATIC_PATHS = [
+    "extra/CNAME",
+    "extra/robots.txt",
+]
+EXTRA_PATH_METADATA = {
+    "extra/CNAME": {"path": "CNAME"},
+    "extra/robots.txt": {"path": "robots.txt"},
+}
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
