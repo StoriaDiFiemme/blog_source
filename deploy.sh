@@ -2,7 +2,7 @@
 
 rm -fR deploy/*
 make publish
-cp output/* deploy
+cp -R output/* deploy
 
 cd deploy
 git add .
