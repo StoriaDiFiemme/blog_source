@@ -46,6 +46,7 @@ THEME = "winnie"
 QUOTES = []
 
 STATIC_PATHS = [
+    "images",
     # "extra/CNAME",
     "extra/robots.txt",
 ]
