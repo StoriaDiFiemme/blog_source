@@ -56,7 +56,7 @@ def rebuild(c):
 @task
 def regenerate(c):
     """Automatically regenerate site upon file modification"""
-    pelican_run("-r -s {settings_base}".format(**CONFIG))
+    pelican_run("-l -r -s {settings_base}".format(**CONFIG))
 
 
 @task

@@ -9,7 +9,9 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 GITHUB_PAGES_BRANCH=main
-
+S3_BUCKET=www.storiadifiemme.it
+CLOUDFRONT_DISTRIBUTION=E11HEGC1R8IIFI
+AWS_PROFILE=personal
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -75,5 +77,8 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
 	git push origin $(GITHUB_PAGES_BRANCH)
 
+s3_upload: publish
+	AWS_PROFILE=$(AWS_PROFILE) s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed --no-mime-magic
+	awsv2 --profile $(AWS_PROFILE) cloudfront create-invalidation --distribution-id $(CLOUDFRONT_DISTRIBUTION) --paths "/*"
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github

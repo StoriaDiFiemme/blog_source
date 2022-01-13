@@ -45,4 +45,4 @@ Tutto il contenuto del blog e dei miei studi è rilasciato sotto licenza Creativ
 
 ## Contatti
 
-* Email: info AT storiadifiemme.it
+* Email: italo.giordani+storiadifiemme AT gmail.com
