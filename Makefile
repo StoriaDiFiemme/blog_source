@@ -79,6 +79,6 @@ github: publish
 
 s3_upload: publish
 	AWS_PROFILE=$(AWS_PROFILE) s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed --no-mime-magic
-	awsv2 --profile $(AWS_PROFILE) cloudfront create-invalidation --distribution-id $(CLOUDFRONT_DISTRIBUTION) --paths "/*"
+	aws --profile $(AWS_PROFILE) cloudfront create-invalidation --distribution-id $(CLOUDFRONT_DISTRIBUTION) --paths "/*"
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github
